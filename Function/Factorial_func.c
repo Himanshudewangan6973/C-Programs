@@ -12,8 +12,8 @@ int fact(int x)
 int main()
 {
     int a;
-    printf("Enter the value of a :");
+    printf("\t    Finding Factorial of a number.\n\n\t\tEnter a number : ");
     scanf("%d",&a);
-    printf("Factorial of %d = %d\n",a,fact(a));
+    printf("\t\tFactorial of %d = %d\n",a,fact(a));
     return 0;
 }
